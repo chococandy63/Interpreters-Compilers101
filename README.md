@@ -1,6 +1,8 @@
 # Interpreters-Compilers101
 Experiments while reading the book Crafting Interpreters, building a toy compiler/interpreter in Rust
 
+My compiler learnings/notes: [Everything-About-Compilers](https://nixpienotes.notion.site/Everything-About-Compilers-8561aeae66384a60902961e422035f81?pvs=74)
+
 ##  Break it down into beginner-friendly steps.
  
 We'll use a simple arithmetic language as an example.
@@ -44,6 +46,7 @@ enum Bytecode {
     Multiply,
     Divide,
 }
+
 ```
 There are also many great resources available if you want to learn more. The book "Crafting Interpreters" by Bob Nystrom is a great place to start, and it's available for free online. There's also the "Rust Programming Language" book by Steve Klabnik and Carol Nichols, which is a great resource for learning Rust.
 
